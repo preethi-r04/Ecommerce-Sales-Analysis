@@ -1,19 +1,45 @@
-# Indian E-commerce Sales Analysis
+🛒 Ecommerce Sales Analysis
 
-**Tools:** Python (pandas), SQLite, Power BI  
-**Dataset:** synthetic Indian e-commerce dataset (2,500 rows)  
+📌 Project Overview
+This project analyzes Indian Ecommerce sales data to identify trends, top-performing categories, regions, and customer behavior. The insights are visualized using Power BI, with data preprocessing done using Python, SQL, and Excel.
 
-## Project Overview
-End-to-end analysis of e-commerce sales and customer behavior. Includes data cleaning, SQL reporting, Python analysis, and an interactive Power BI dashboard.
+⚙️ Tech Stack
+Python – Data cleaning & preprocessing
+SQL (SQLite) – Querying and data analysis
+Excel – Quick validation & summary tables
+Power BI – Interactive dashboard & data visualization
+GitHub – Version control and project hosting
 
-## Files
-- `dataset/indian_ecommerce_sales.csv` — cleaned dataset
-- `python_scripts/analysis.py` — data cleaning & EDA (Pandas)
-- `sql_scripts/analysis_sql.py` — load to SQLite + SQL KPI queries
-- `powerbi/Ecommerce_Dashboard.pbix` — Power BI dashboard
-- `images/` — screenshots of dashboard
 
-## How to run
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
+📂 Project Structure
+Ecommerce-Sales-Analysis/
+│-- indian_ecommerce_sales.csv   # Raw dataset  
+│-- indian_ecommerce_sales.xlsx  # Cleaned dataset  
+│-- ecommerce.db                 # SQLite database  
+│-- analysis_py.py               # Python analysis script  
+│-- analysis_sql.py              # SQL queries script  
+│-- Ecom.pbix                     # Power BI dashboard file  
+│-- Screenshot/                   # Dashboard screenshots  
+│-- README.md                     # Project documentation  
+
+
+📊 Dashboard Highlights
+Total Sales & Profit Trends 
+Sales by Category & Sub-Category 
+Top States by Sales & Profit 
+Customer Segmentation Analysis 
+Year-over-Year Growth 
+
+
+🚀 How to Use
+Clone this repository:
+git clone https://github.com/preethi-r04/Ecommerce-Sales-Analysis.git
+Open the dataset in ecommerce.db or indian_ecommerce_sales.csv.
+Run analysis scripts (analysis_py.py / analysis_sql.py).
+Open Ecom.pbix in Power BI to view the interactive dashboard.
+
+
+Author
+Preethi R
+GitHub: preethi-r04
+
